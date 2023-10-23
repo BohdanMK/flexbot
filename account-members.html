@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../flexbot/assets/plugins/slick/slick-theme.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" />
+    <link
+        rel="stylesheet"
+        href="https://unpkg.com/simplebar@latest/dist/simplebar.css"
+    />
+    <link rel="stylesheet" href="../flexbot/assets/style/style.css">
+    <link rel="stylesheet" href="../flexbot/assets/style/account.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div class="page">
+            <section class="main main--account">
+                <div class="container">
+                    <div class="account">
+                        <aside class="account__sidebar">
+                            <img class="account__sidebar-logo" src="../flexbot/assets/image/logo.svg" alt="">
+                            <a class="btn btn--exit btn--exit--mobile" href="/">Exit</a>
+                            <div class="account__sidebar-wrapper">
+                                <ul class="account__nav">
+                                    <li class="account__nav-item">
+                                        <a class="account__nav-link" href="../flexbot/account-filter.html">
+                                            <span>Filters</span>
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="20.222" height="17.58" viewBox="0 0 20.222 17.58">
+                                                <path id="Path_634" data-name="Path 634" d="M22.849,6H5.269c-1.381,0-1.758.753-.753,1.758l5.274,5.274A6.828,6.828,0,0,1,11.547,17.3V23.58l5.023-2.511V16.673a6.157,6.157,0,0,1,1.758-3.641L23.6,7.758c1-1,.628-1.758-.753-1.758Z" transform="translate(-3.948 -6)" fill="#13e4ff"/>
+                                            </svg>
+                                        </a>
+                                    </li>
+                                <li class="account__nav-item">
+                                    <a class="account__nav-link" href="../flexbot/account-history.html">
+                                        <span>Blook History</span>
+                                        <svg id="1660" data-name="1660" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+
+                                            <path id="Контур_600" data-name="Контур 600" d="M4,13h6a1,1,0,0,0,1-1V4a1,1,0,0,0-1-1H4A1,1,0,0,0,3,4v8A1,1,0,0,0,4,13Zm0,8h6a1,1,0,0,0,1-1V16a1,1,0,0,0-1-1H4a1,1,0,0,0-1,1v4A1,1,0,0,0,4,21Zm10,0h6a1,1,0,0,0,1-1V12a1,1,0,0,0-1-1H14a1,1,0,0,0-1,1v8A1,1,0,0,0,14,21ZM13,4V8a1,1,0,0,0,1,1h6a1,1,0,0,0,1-1V4a1,1,0,0,0-1-1H14A1,1,0,0,0,13,4Z" fill="#fff"/>
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li class="account__nav-item">
+                                    <a class="account__nav-link" href="../flexbot/account-calendar.html">
+                                        <span>Calendar</span>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+                                            <path id="Контур_601" data-name="Контур 601" d="M19,4H18V3a1,1,0,0,0-2,0V4H8V3A.945.945,0,0,0,7,2,.945.945,0,0,0,6,3V4H5A2.946,2.946,0,0,0,2,7V8H22V7A2.946,2.946,0,0,0,19,4ZM2,19a2.946,2.946,0,0,0,3,3H19a2.946,2.946,0,0,0,3-3V10H2Zm15-7a1,1,0,1,1-1,1A.945.945,0,0,1,17,12Zm0,4a1,1,0,1,1-1,1A.945.945,0,0,1,17,16Zm-5-4a1,1,0,1,1-1,1A.945.945,0,0,1,12,12Zm0,4a1,1,0,1,1-1,1A.945.945,0,0,1,12,16ZM7,12a1,1,0,0,1,0,2,1,1,0,0,1,0-2Zm0,4a1,1,0,0,1,0,2,1,1,0,0,1,0-2Z" transform="translate(-2 -2)" fill="#fff"/>
+                                        </svg>
+
+                                    </a>
+                                </li>
+                                <li class="account__nav-item">
+                                    <a class="account__nav-link" href="../flexbot/account-offers.html">
+                                        <span>Offers</span>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="20.001" height="20.004" viewBox="0 0 20.001 20.004">
+                                            <g id="Сгруппировать_1661" data-name="Сгруппировать 1661" transform="translate(-0.248 -0.25)">
+                                            <path id="Контур_602" data-name="Контур 602" d="M10.988,20.254A3.09,3.09,0,0,1,8.8,19.361L1.142,11.7A3.125,3.125,0,0,1,.255,9.307l.33-5.334A3.653,3.653,0,0,1,3.972.586L9.306.256a3.154,3.154,0,0,1,2.395.887L19.36,8.8a3.357,3.357,0,0,1-.18,4.731h0l-5.665,5.647A3.572,3.572,0,0,1,10.988,20.254ZM9.515,1.7H9.381l-5.34.325A2.221,2.221,0,0,0,2.012,4.053L1.7,9.382a1.652,1.652,0,0,0,.464,1.3l7.642,7.654a1.681,1.681,0,0,0,1.27.47,2.14,2.14,0,0,0,1.409-.649L18.16,12.49a1.913,1.913,0,0,0,.174-2.679L10.692,2.169A1.629,1.629,0,0,0,9.515,1.7Zm9.144,11.307Z" transform="translate(0)" fill="#fff"/>
+                                            <path id="Контур_603" data-name="Контур 603" d="M9.694,12.159a2.46,2.46,0,1,1,.006,0Zm0-3.479a1.015,1.015,0,0,0-.719,1.739,1.044,1.044,0,0,0,1.438,0,1.02,1.02,0,0,0,0-1.438h0A1.009,1.009,0,0,0,9.694,8.68Z" transform="translate(-2.934 -2.933)" fill="#fff"/>
+                                            </g>
+                                        </svg>
+
+
+                                    </a>
+                                </li>
+                                <li class="account__nav-item">
+                                    <a class="account__nav-link active" href="../flexbot/account-members.html">
+                                        <span>Membership</span>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24.612" height="26.158" viewBox="0 0 24.612 26.158">
+                                            <g id="Сгруппировать_1662" data-name="Сгруппировать 1662" transform="translate(-424.694 -395.509)">
+                                            <path id="Контур_604" data-name="Контур 604" d="M437,420.611l11.556-13.955-4.377-10.4H437" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+                                            <path id="Контур_605" data-name="Контур 605" d="M448.556,420.611,437,406.656l4.377-10.4h7.179" transform="translate(-11.556)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+                                            <path id="Контур_606" data-name="Контур 606" d="M425.444,406.562H448.46" fill="none" stroke="#fff" stroke-width="1.5"/>
+                                            <path id="Контур_608" data-name="Контур 608" d="M443.479,396.259l-4.023,10.015,6.6,13.7" transform="translate(-9)" fill="none" stroke="#fff" stroke-width="1.5"/>
+                                            <path id="Контур_609" data-name="Контур 609" d="M442.037,396.259l4.023,10.015-6.6,13.7" transform="translate(-2.395)" fill="none" stroke="#fff" stroke-width="1.5"/>
+                                            </g>
+                                        </svg>
+
+
+                                    </a>
+                                </li>
+                                <li class="account__nav-item">
+                                    <a class="account__nav-link" href="../flexbot/account-earning.html">
+                                        <span>Earnings</span>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="29.708" height="15.536" viewBox="0 0 29.708 15.536">
+                                            <g id="Сгруппировать_1663" data-name="Сгруппировать 1663" transform="translate(-2.01 -12.5)">
+                                            <path id="Контур_610" data-name="Контур 610" d="M12.725,23.579h-2.7a1.013,1.013,0,0,0,0,2.026H11.1a1.017,1.017,0,0,0,.952.675,1.006,1.006,0,0,0,.959-.7,2.359,2.359,0,0,0-.284-4.7H11.374a.338.338,0,1,1,0-.675h2.7a1.013,1.013,0,0,0,0-2.026H13a1.017,1.017,0,0,0-.952-.675,1.006,1.006,0,0,0-.959.7,2.359,2.359,0,0,0,.284,4.7h1.351a.334.334,0,0,1,.338.338A.339.339,0,0,1,12.725,23.579Z" transform="translate(-2.272 -1.623)" fill="#ffffff"/>
+                                            <path id="Контур_611" data-name="Контур 611" d="M9.778,28.036A7.768,7.768,0,1,0,2.01,20.268,7.778,7.778,0,0,0,9.778,28.036Zm0-13.51a5.742,5.742,0,1,1-5.742,5.742A5.745,5.745,0,0,1,9.778,14.526Zm18.488,4.728H19.235a1.013,1.013,0,0,0,0,2.026h9.038l-.973.973a1.006,1.006,0,0,0,0,1.432,1.011,1.011,0,0,0,1.432,0l2.7-2.7a.148.148,0,0,0,.02-.034.989.989,0,0,0,.2-.3v-.007a.041.041,0,0,0,.007-.027.856.856,0,0,0,.061-.317.511.511,0,0,0-.007-.1,1.023,1.023,0,0,0-.047-.25c-.014-.034-.02-.068-.034-.1a.969.969,0,0,0-.2-.3l-2.7-2.7a1.013,1.013,0,1,0-1.432,1.432l.973.973Z" fill="#ffffff"/>
+                                            <path id="Контур_612" data-name="Контур 612" d="M24.023,16.526h8.106a1.013,1.013,0,1,0,0-2.026H24.023a1.013,1.013,0,1,0,0,2.026Zm0,10.808h8.106a1.013,1.013,0,0,0,0-2.026H24.023a1.013,1.013,0,0,0,0,2.026Z" transform="translate(-6.815 -0.649)" fill="#ffffff"/>
+                                            </g>
+                                        </svg>
+
+
+                                    </a>
+                                </li>
+                                <li class="account__nav-item">
+                                    <a class="account__nav-link" href="../flexbot/account-referrals.html">
+                                        <span>Referrals</span>
+                                        <svg id="Сгруппировать_1664" data-name="Сгруппировать 1664" xmlns="http://www.w3.org/2000/svg" width="21.999" height="21.999" viewBox="0 0 21.999 21.999">
+                                            <path id="Контур_613" data-name="Контур 613" d="M12.374,135.637v-3.513a4.125,4.125,0,1,0-8.25,0v3.513C1.669,136.591,0,138.344,0,140.374v2.75A1.374,1.374,0,0,0,1.375,144.5H15.124a1.374,1.374,0,0,0,1.375-1.375v-2.75C16.5,138.344,14.83,136.591,12.374,135.637Zm-5.5-3.513a1.375,1.375,0,1,1,2.75,0v4.125a1.375,1.375,0,1,1-2.75,0Zm6.875,9.625h-11v-1.375c0-.835.761-1.575,1.938-2.08a4.09,4.09,0,0,0,7.124,0c1.176.5,1.938,1.245,1.938,2.08Z" transform="translate(0 -122.5)" fill="#fff"/>
+                                            <path id="Контур_614" data-name="Контур 614" d="M232.25,7.637V4.125a4.125,4.125,0,1,0-8.25,0v.195a5.46,5.46,0,0,1,2.75,1.7v-1.9a1.375,1.375,0,1,1,2.75,0V8.25a1.374,1.374,0,0,1-1.375,1.375v2.75a4.107,4.107,0,0,0,3.562-2.08c1.176.5,1.938,1.245,1.938,2.08v1.375h-5.018a7.115,7.115,0,0,1,3.053,2.75H235a1.374,1.374,0,0,0,1.375-1.375v-2.75C236.374,10.344,234.705,8.591,232.25,7.637Z" transform="translate(-214.375)" fill="#fff"/>
+                                        </svg>
+
+
+                                    </a>
+                                </li>
+                                <li class="account__nav-item">
+                                    <a class="account__nav-link" href="../flexbot/settings.html">
+                                        <span>Settings</span>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="18.231" height="20" viewBox="0 0 18.231 20">
+                                            <g id="Сгруппировать_1665" data-name="Сгруппировать 1665" transform="translate(-2.807 -2)">
+                                            <path id="Контур_615" data-name="Контур 615" d="M8.807,20a2,2,0,0,0,2,2h2a2,2,0,0,0,2-2V18.786a.8.8,0,0,1,1.268-.62l.629.491a1.837,1.837,0,0,0,2.579-.317l1.332-1.7a2,2,0,0,0-.345-2.807L19.3,13.07A1.344,1.344,0,0,1,18.807,12a1.325,1.325,0,0,1,.485-1.055l.978-.764a2,2,0,0,0,.345-2.807L19.279,5.665a1.831,1.831,0,0,0-2.57-.316l-.623.487a.807.807,0,0,1-1.279-.626V4a2,2,0,0,0-2-2h-2a2,2,0,0,0-2,2V5.276a.682.682,0,0,1-1.085.531l-.633-.495-.048-.036a1.775,1.775,0,0,0-.227-.141l-.007,0a1.771,1.771,0,0,0-2.2.485L3.231,7.374a2,2,0,0,0,.345,2.807l.632.493A1.661,1.661,0,0,1,4.807,12,1.68,1.68,0,0,1,4.2,13.34l-.625.489a2,2,0,0,0-.345,2.807L4.6,18.388a1.777,1.777,0,0,0,2.207.489l.008,0a1.783,1.783,0,0,0,.244-.153l.034-.026.639-.5a.675.675,0,0,1,1.075.525Zm4-15.6a.4.4,0,0,0-.4-.4h-1.2a.4.4,0,0,0-.4.4v.876A2.682,2.682,0,0,1,6.491,7.382l-.137-.107a.4.4,0,0,0-.561.069l-.739.946a.4.4,0,0,0,.069.561l.316.247a3.77,3.77,0,0,1-.006,5.817l-.31.242a.4.4,0,0,0-.069.562l.739.946a.4.4,0,0,0,.561.069l.148-.115a2.675,2.675,0,0,1,4.306,2.1V19.6a.4.4,0,0,0,.4.4h1.2a.4.4,0,0,0,.4-.4v-.814a2.8,2.8,0,0,1,4.5-2.2l.185.145a.4.4,0,0,0,.562-.069l.739-.946a.4.4,0,0,0-.069-.562l-.656-.512a3.4,3.4,0,0,1-.007-5.277l.663-.518a.4.4,0,0,0,.069-.561l-.739-.946a.4.4,0,0,0-.562-.069l-.175.136a2.806,2.806,0,0,1-4.51-2.2Z" fill="#fff" fill-rule="evenodd"/>
+                                            <circle id="Эллипс_5" data-name="Эллипс 5" cx="3" cy="3" r="3" transform="translate(9 9)" fill="none" stroke="#fff" stroke-width="2"/>
+                                            </g>
+                                        </svg>
+
+
+
+                                    </a>
+                                </li>
+                                <li class="account__nav-item">
+                                    <a class="account__nav-link" href="../flexbot/account-faq.html">
+                                        <span>F.A.Q</span>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18">
+                                            <g id="Сгруппировать_1666" data-name="Сгруппировать 1666" transform="translate(-3 -3)">
+                                            <path id="Контур_616" data-name="Контур 616" d="M12,3a8.963,8.963,0,0,0-9,9,9.318,9.318,0,0,0,1.6,5.1L3.2,19.5a.908.908,0,0,0,0,1A.891.891,0,0,0,4,21h8A9,9,0,0,0,12,3Zm0,16H5.8l.9-1.5a.9.9,0,0,0-.1-1.1A6.97,6.97,0,1,1,12,19Z" fill="#fff"/>
+                                            <path id="Контур_617" data-name="Контур 617" d="M12.1,7.3H12A2.813,2.813,0,0,0,9.6,8.6.9.9,0,0,0,9.8,10a.984.984,0,0,0,1.4-.3.909.909,0,0,1,.8-.4h.1a.9.9,0,0,1,.9.9,1.013,1.013,0,0,1-.6.9l-.7.2a.961.961,0,0,0-.7.9V13a.945.945,0,0,0,1,1,.987.987,0,0,0,1-.9,2.913,2.913,0,0,0,2-2.8,2.989,2.989,0,0,0-2.9-3Z" fill="#fff"/>
+                                            <circle id="Эллипс_6" data-name="Эллипс 6" cx="1" cy="1" r="1" transform="translate(11 15)" fill="#fff"/>
+                                            </g>
+                                        </svg>
+
+
+
+                                    </a>
+                                </li>
+                                <li class="account__nav-item">
+                                    <a class="account__nav-link" href="../flexbot/account-help.html">
+                                        <span>Help</span>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+                                            <path id="Контур_618" data-name="Контур 618" d="M17.065,2.935a9.972,9.972,0,0,0-14.13,0,9.972,9.972,0,0,0,0,14.13,9.972,9.972,0,0,0,14.13,0,9.972,9.972,0,0,0,0-14.13ZM15.109,8.783l2.978-.457a8.143,8.143,0,0,1,0,3.348l-2.978-.457a5.746,5.746,0,0,0,0-2.435Zm2.609-1.739-3.087.478a5.072,5.072,0,0,0-.913-1.239,4.928,4.928,0,0,0-1.239-.913l.478-3.087a8.379,8.379,0,0,1,2.891,1.87A8.587,8.587,0,0,1,17.717,7.043ZM10,13.522A3.5,3.5,0,0,1,7.522,12.5,3.451,3.451,0,0,1,6.5,10.022a3.5,3.5,0,0,1,5.978-2.478A3.451,3.451,0,0,1,13.5,10.022a3.489,3.489,0,0,1-3.5,3.5ZM10,1.739a8.575,8.575,0,0,1,1.674.174l-.457,2.978a5.123,5.123,0,0,0-2.435,0L8.326,1.913A8.575,8.575,0,0,1,10,1.739ZM4.152,4.152a8.076,8.076,0,0,1,2.891-1.87L7.522,5.37a5.072,5.072,0,0,0-1.239.913,6.4,6.4,0,0,0-.935,1.239L2.261,7.043A9,9,0,0,1,4.152,4.152ZM1.739,10a8.575,8.575,0,0,1,.174-1.674l2.978.457A5.655,5.655,0,0,0,4.739,10a4.559,4.559,0,0,0,.152,1.217l-2.978.457A8.575,8.575,0,0,1,1.739,10Zm.543,2.957,3.087-.478A4.651,4.651,0,0,0,6.3,13.717a6.4,6.4,0,0,0,1.239.935l-.478,3.087a8.379,8.379,0,0,1-2.891-1.87,8.62,8.62,0,0,1-1.891-2.913ZM10,18.261a8.575,8.575,0,0,1-1.674-.174l.457-2.978A5.655,5.655,0,0,0,10,15.261a4.559,4.559,0,0,0,1.217-.152l.457,2.978A8.575,8.575,0,0,1,10,18.261Zm5.848-2.413a8.076,8.076,0,0,1-2.891,1.87l-.478-3.087a4.651,4.651,0,0,0,1.239-.935,4.928,4.928,0,0,0,.913-1.239l3.087.478A8.466,8.466,0,0,1,15.848,15.848Z" fill="#fff"/>
+                                        </svg>
+
+                                    </a>
+                                </li>
+                                </ul>
+                            </div>
+                        </aside>
+                        <div class="account__content">
+                            <div class="account__content-head">
+                                <img class="account__sidebar-logo account__sidebar-logo--mobile" src="../flexbot/assets/image/logo2.png" alt="">
+                                <h3 class="account__content-head-title">Membership</h3>
+                                <a class="btn btn--exit" href="">Logout</a>
+                                <button class="burger__btn burger__btn--sidebar">
+                                    <span></span>
+                                </button>
+                            </div>
+                            <div class="account__content-body">
+                                <div class="membership">
+                                    <div class="membership__head">
+                                        <h4 class="membership__title">You are subscribed!</h4>
+                                        <p>Subscription ends: 06/23/2023, 02:06:44 AM
+                                        </p>
+                                        <p>Time Remaining: 1 day, 12 hours</p>
+                                    </div>
+                                    <div class="membership__body">
+                                        <ul class="membership__list">
+                                            <li class="content__prices-item">
+                                                <div class="price-item">
+                                                    <div class="price-item__header">
+                                                        <h4 class="price-item__header-title">Trial</h4>
+                                                        <span class="price-item__header-price">0$</span>
+                                                        <span class="price-item__header-period">2 trial days on us</span>
+                                                    </div>
+                                                    <div class="price-item__body">
+                                                        <ul class="price-item__list">
+                                                            <li class="price-item__list-item">
+                                                                *Unlimited search
+                                                            </li>
+                                                            <li class="price-item__list-item">
+                                                                *SMS notifications
+                                                            </li>
+                                                            <li class="price-item__list-item">
+                                                                *I've arrived
+                                                            </li>
+                                                            <li class="price-item__list-item">
+                                                                *Unique Virtual Machine
+                                                            </li>
+                                                            <li class="price-item__list-item">
+                                                                *Instant offers
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                    <div class="price-item__footer">
+                                                        <button class="price-item__button">
+                                                            <svg width="202" height="78" viewBox="0 0 202 76" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                                <rect width="200.5" height="76.5" rx="19.25" stroke="transparent" stroke-width="1.5"></rect>
+                                                            </svg>
+                                                            <span>Sign up</span>
+                                                        </button>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                            <li class="content__prices-item">
+                                                <div class="price-item">
+                                                    <div class="price-item__header">
+                                                        <h4 class="price-item__header-title">Trial</h4>
+                                                        <span class="price-item__header-price">0$</span>
+                                                        <span class="price-item__header-period">2 trial days on us</span>
+                                                    </div>
+                                                    <div class="price-item__body">
+                                                        <ul class="price-item__list">
+                                                            <li class="price-item__list-item">
+                                                                *Unlimited search
+                                                            </li>
+                                                            <li class="price-item__list-item">
+                                                                *SMS notifications
+                                                            </li>
+                                                            <li class="price-item__list-item">
+                                                                *I've arrived
+                                                            </li>
+                                                            <li class="price-item__list-item">
+                                                                *Unique Virtual Machine
+                                                            </li>
+                                                            <li class="price-item__list-item">
+                                                                *Instant offers
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                    <div class="price-item__footer">
+                                                        <button class="price-item__button">
+                                                            <svg width="202" height="78" viewBox="0 0 202 76" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                                <rect width="200.5" height="76.5" rx="19.25" stroke="transparent" stroke-width="1.5"></rect>
+                                                            </svg>
+                                                            <span>Sign up</span>
+                                                        </button>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                            <li class="content__prices-item">
+                                                <div class="price-item">
+                                                    <div class="price-item__header">
+                                                        <h4 class="price-item__header-title">Trial</h4>
+                                                        <span class="price-item__header-price">0$</span>
+                                                        <span class="price-item__header-period">2 trial days on us</span>
+                                                    </div>
+                                                    <div class="price-item__body">
+                                                        <ul class="price-item__list">
+                                                            <li class="price-item__list-item">
+                                                                *Unlimited search
+                                                            </li>
+                                                            <li class="price-item__list-item">
+                                                                *SMS notifications
+                                                            </li>
+                                                            <li class="price-item__list-item">
+                                                                *I've arrived
+                                                            </li>
+                                                            <li class="price-item__list-item">
+                                                                *Unique Virtual Machine
+                                                            </li>
+                                                            <li class="price-item__list-item">
+                                                                *Instant offers
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                    <div class="price-item__footer">
+                                                        <button class="price-item__button">
+                                                            <svg width="202" height="78" viewBox="0 0 202 76" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                                <rect width="200.5" height="76.5" rx="19.25" stroke="transparent" stroke-width="1.5"></rect>
+                                                            </svg>
+                                                            <span>Sign up</span>
+                                                        </button>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                            <li class="content__prices-item">
+                                                <div class="price-item">
+                                                    <div class="price-item__header">
+                                                        <h4 class="price-item__header-title">Trial</h4>
+                                                        <span class="price-item__header-price">0$</span>
+                                                        <span class="price-item__header-period">2 trial days on us</span>
+                                                    </div>
+                                                    <div class="price-item__body">
+                                                        <ul class="price-item__list">
+                                                            <li class="price-item__list-item">
+                                                                *Unlimited search
+                                                            </li>
+                                                            <li class="price-item__list-item">
+                                                                *SMS notifications
+                                                            </li>
+                                                            <li class="price-item__list-item">
+                                                                *I've arrived
+                                                            </li>
+                                                            <li class="price-item__list-item">
+                                                                *Unique Virtual Machine
+                                                            </li>
+                                                            <li class="price-item__list-item">
+                                                                *Instant offers
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                    <div class="price-item__footer">
+                                                        <button class="price-item__button">
+                                                            <svg width="202" height="78" viewBox="0 0 202 76" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                                <rect width="200.5" height="76.5" rx="19.25" stroke="transparent" stroke-width="1.5"></rect>
+                                                            </svg>
+                                                            <span>Sign up</span>
+                                                        </button>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.6.4.js"
+        integrity="sha256-a9jBBRygX1Bh5lt8GZjXDzyOB+bWve9EiO7tROUtj/E=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+    <script src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs" type="module"></script>
+    <script src="../flexbot/assets/plugins/slick/slick.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/simplebar@latest/dist/simplebar.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
+
+    <script src="../flexbot/assets/js/main.js"></script>
+    <script src="../flexbot/assets/js/account.js"></script>
+
+</body>
+
+</html>
